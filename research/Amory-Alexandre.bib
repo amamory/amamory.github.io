@@ -19,33 +19,35 @@
 
 @ARTICLE{Juracy-tvlsi2018, 
 author={L. R. Juracy and M. T. Moreira and F. A. Kuentzer and A. de Morais Amory}, 
-journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
-title={A DfT Insertion Methodology to Scannable Q-Flop Elements}, 
-year={2018}, 
-xxxvolume={25}, 
-xxxnumber={2}, 
-xxxpages={765-768}, 
-xxxabstract={Type D flip-flop cell and its scannable version called Muxed-D are the most used sequential components in cell-based synchronous designs because it simplifies timing analysis and it is less susceptible to race problems. However, as technology nodes shrink, it becomes more difficult, especially for high-performance designs, to cope with a hard global timing boundary. The use of latches emerges as a possible solution to the contemporary design challenges such as clock skew/jitter, PVT variation, and low-power and high-performance designs. Moreover, latches are also gaining popularity among asynchronous and timing resilient circuits. One of the available scannable cells for latches is called level sensitivity scan-based design (LSSD). The goal of this brief is to present an open design of an optimized single-latch LSSD cell, which has better tradeoffs between propagation delay, power, energy, and silicon area than the original LSSD design, thus reducing the cost for testing latch-based designs.}, 
-keywords={asynchronous circuits;flip-flops;integrated circuit design;sequential circuits;silicon;timing circuits;LSSD scan cell;Muxed-D;PVT variation;asynchronous circuit;cell-based synchronous design;clock skew;global timing boundary;high-performance design;jitter;latches;level sensitivity scan-based design;optimized design;propagation delay;sequential component;silicon area;technology node;timing analysis;timing resilient circuit;type D flip-flop cell;Computer architecture;Inverters;Latches;Microprocessors;Propagation delay;Timing;Transistors;Latch-based design;VLSI testing;level sensitive scan-based design (LSSD);scan cell}, 
-doi={10.1109/TVLSI.2016.2589548}, 
-ISSN={1063-8210}, 
-month={Feb},}
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
+  title={A DfT Insertion Methodology to Scannable Q-Flop Elements}, 
+  year={2018}, 
+  volume={26},
+  number={8},
+  pages={1609-1612}, 
+  abstract={The Q-Flop is an alternative memory element for designs that are prone to metastability. It has been substantially explored by past research work, specially in synchronization schemes. However, there is very limited support to test insertion on these critical components. This brief presents a testable Q-flop cell and a methodology to integrate it to standard synthesis and DfT flows, allowing automated scan insertion using conventional sequential cells and commercial design automation solutions. Experimental results explore the tradeoffs of the proposed cell in terms of silicon area, energy, and power when compared to the original Q-flop.}, 
+  keywords  = {async, testing},
+  doi={10.1109/TVLSI.2018.2821134}, 
+  ISSN={1063-8210}, 
+  month={Aug}
+}
 
 @inproceedings{Ruaro18,
   author    = {Marcelo Ruaro and Henrique Martins Medina and  Alexandre M. Amory and Fernado G. Moraes},
   title     = {Software-Defined Networking Architecture for NoC-Based Many-Cores},
   booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS)},
   pages     = {1--4},
+  doi={10.1109/ISCAS.2018.8351830}, 
   year      = {2018},
   keywords  = {mpsoc}
 }
 
 @inproceedings{Juracy18,
-  author    = {Leonardo Rezende Juracy and Matheus Trevisan Moreira and Felipe A. Kuentzer and 
-               Alexandre M. Amory },
+  author    = {Leonardo Rezende Juracy and Matheus Trevisan Moreira and Felipe A. Kuentzer and F. G. Moraes and Alexandre M. Amory },
   title     = {An LSSD Compliant Scan Cell for Flip-Flops},
   booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS)},
   pages     = {1--4},
+  doi={10.1109/ISCAS.2018.8351515}, 
   year      = {2018},
   keywords  = {async, testing}
 }
@@ -55,7 +57,8 @@ month={Feb},}
                Alexandre M. Amory },
   title     = {On the Reuse of Timing Resilient Architecture for Testing Path Delay Faults in Critical Paths},
   booktitle = {IEEE Design, Automation and Test in Europe (DATE)},
-  pages     = {1--6},
+  pages     = {379--384},
+  doi={10.23919/DATE.2018.8342039}, 
   year      = {2018},
   keywords  = {async, testing}
 }
@@ -69,7 +72,8 @@ month={Feb},}
   pages={127--129},
   year={2017},
   doi={https://doi.org/10.1109/MRA.2017.2757722},
-  publisher={IEEE}
+  publisher={IEEE},
+  keywords  = {robotics}
 }
 
 
@@ -86,26 +90,27 @@ month={Feb},}
   author={Guilherme H. M. Marques, Daniel C. Einloft, Augusto C. P. Bergamin, Joice A. Marek, Renan G. Maidana Marcia B. Campos, Isabel H. Manssour, Alexandre M. Amory},
   booktitle={Latin American Robotics Symposium (LARS)},
   doi={https://doi.org/10.1109/SBR-LARS-R.2017.8215273},
-  year={2017}
+  year={2017},
+  keywords  = {robotics}  
 }
 
 @inproceedings{maidana2017odometria,
   title={Odometria Visual Monocular para Localiza{\c{c}}{\~a}o de Rob{\^o} Terrestre},
   author={Maidana, Renan Guedes and Salton, Aurelio Tergolina and de Morais Amory, Alexandre},
   booktitle={SBAI},
-  year={2017}
+  year={2017},
+  keywords  = {robotics}  
 }
 
 
 @INPROCEEDINGS{8050967, 
 author={J. C. Hamerski and G. Abich and R. Reis and L. Ost and A. Amory}, 
-booktitle={2017 IEEE International Symposium on Circuits and Systems (ISCAS)}, 
+booktitle={IEEE International Symposium on Circuits and Systems (ISCAS)}, 
 title={Publish-subscribe programming for a NoC-based multiprocessor system-on-chip}, 
 year={2017}, 
 volume={}, 
 number={}, 
 pages={1-4}, 
-keywords={message passing;middleware;multiprocessing systems;network-on-chip;parallel programming;DTW application execution time;FreeRTOS kernel;NoC-based multiprocessor system-on-chip;homogeneous processing elements;intercommunication patterns;memory footprint;message passing;modified MPSoC framework;network-on-chip;parallel programming;publish-subscribe programming;shared memory;software engineer;Kernel;Middleware;Nickel;Programming;Publish-subscribe;Synchronization;MPSOC;Programming Model}, 
 doi={10.1109/ISCAS.2017.8050967}, 
 ISSN={}, 
 month={May},}
