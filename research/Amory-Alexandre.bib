@@ -277,19 +277,22 @@ keywords={async,testing},
 ISSN={1063-8210}, 
 month={Feb},}
 
+
 @ARTICLE{7517358, 
-author={E. Wachter and V. Fochi and F. Barreto and Alexandre M. Amory and F. Moraes}, 
+author={E. {W. Wachter} and V. {Fochi} and F. {Barreto} and Alexandre M. Amory and F. G. {Moraes}}, 
 journal={IEEE Transactions on Emerging Topics in Computing}, 
-title={A Hierarchical and Distributed Fault Tolerant Proposal for NoC-based MPSoCs}, 
-year={2016}, 
-volume={PP}, 
-number={99}, 
-pages={1-1}, 
-abstract={Aggressive scaling of CMOS process technology allows the fabrication of highly integrated chips such as NoCbased MPSoCs. However, fault probability increases when devices’ size reduces. Hence, fault tolerant design has an important role in current nanometric technologies, leading to research on fault mitigation techniques for NoC-based MPSoCs. Most of the state-of-the-art papers present partial solutions to design a fault tolerant MPSoC, i.e., they present fault tolerant mechanisms for either NoCs or processing elements (PEs). The goal of this paper is to propose a comprehensive integration of previously defined recovery mechanisms. The main novelty is the system-level integration itself, which is organized in a hierarchical and distributed manner, ensuring the correct execution of applications in the presence of multiple transient or permanent faults in both the NoC and/or the PEs. The combination of both NoC and PE recovery methods enable the proposed system to tolerate a very severe number of faults. Depending on the severity of the fault in the NoC, it may operate in degraded mode or require the search of fault-free paths. In both cases, the communication is reestablished in less than 50 microseconds. Faults detected into the PEs fire a lightweight and fast task relocation protocol, which executes in less than one millisecond.}, 
-doi={10.1109/TETC.2016.2593640}, 
+title={A Hierarchical and Distributed Fault Tolerant Proposal for NoC-Based MPSoCs}, 
+year={2018}, 
+volume={6}, 
+number={4}, 
+pages={524-537}, 
+abstract={Aggressive scaling of CMOS process technology allows the fabrication of highly integrated chips such as NoC-based MPSoCs. However, fault probability increases when devices’ size reduces. Hence, fault tolerant design has an important role in current nanometric technologies, leading to research on fault mitigation techniques for NoC-based MPSoCs. Most of the state-of-the-art papers present partial solutions to design a fault tolerant MPSoC, i.e., they present fault tolerant mechanisms for either NoCs or processing elements (PEs). Thegoalof this paper is to propose a comprehensive integration of previously defined recovery mechanisms. The mainnoveltyis the system-level integration itself, which is organized in a hierarchical and distributed manner, ensuring the correct execution of applications in the presence of multiple transient or permanent faults in both the NoC and/or the PEs. The combination of both NoC and PE recovery methods enable the proposed system to tolerate a very severe number of faults. Depending on the severity of the fault in the NoC, it may operate in degraded mode or require the search of fault-free paths. In both cases, the communication is reestablished in less than 50 microseconds. Faults detected into the PEs fire a lightweight and fast task relocation protocol, which executes in less than one millisecond.}, 
 keywords  = {mpsoc, fault tolerance},
+doi={10.1109/TETC.2016.2593640}, 
 ISSN={2168-6750}, 
-month={},}
+month={Oct},}
+
+
 
 @inproceedings{DBLP:conf/async/Kuentzer16,
   author    = {Felipe A. Kuentzer and
@@ -678,7 +681,7 @@ month={Dec},}
 }
 
 
-@Inbook{Lucas2011,
+@InProceedings{10.1007/978-3-642-23120-9_5,
 author="Lucas, Alzemiro H.
 and Amory, Alexandre M.
 and Moraes, Fernando G.",
@@ -686,16 +689,19 @@ editor="Becker, J{\"u}rgen
 and Johann, Marcelo
 and Reis, Ricardo",
 title="Crosstalk Fault Tolerant NoC: Design and Evaluation",
-bookTitle="VLSI-SoC: Technologies for Systems Integration: 17th IFIP WG 10.5/IEEE International Conference on Very Large Scale Integration, VLSI-SoC 2009, Florian{\'o}polis, Brazil, October 12-14, 2009, Revised Selected Papers",
+booktitle="VLSI-SoC: Technologies for Systems Integration",
 year="2011",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="81--93",
-isbn="978-3-642-23120-9",
+abstract="The innovations on integrated circuit fabrics are continuously reducing components size, which increases the logic density of systems-on-chip (SoC), but also affect the reliability of these components. Chip-level global buses are especially subject to crosstalk faults, which can lead to increased delay and glitches. This paper evaluates different crosstalk fault tolerant approaches for Networks-on-chip (NoCs) links such that the network can maintain the original network performance even in the presence of errors. Three different approaches are presented and evaluated in terms of area overhead, packet latency, power consumption, and residual fault coverage. Results demonstrate that the use of CRC coding at each link is preferred when minimal area and power overhead are the main goals. However, each one of the methods presented here has its own advantages and can be applied depending on the application.",
+keywords  = {noc,testing},
 doi="10.1007/978-3-642-23120-9_5",
 url="http://dx.doi.org/10.1007/978-3-642-23120-9_5",
-keywords  = {noc,testing}
+isbn="978-3-642-23120-9"
 }
+
+
 
 
 
