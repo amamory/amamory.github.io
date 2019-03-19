@@ -66,6 +66,141 @@ DOI = {10.3390/s19030702}
 }
 
 
+
+@INPROCEEDINGS{8618003,
+author={J. C. {Hamerski} and A. R. P. {Domingues} and F. G. {Moraes} and A. {Amory}},
+booktitle={2018 25th IEEE International Conference on Electronics, Circuits and Systems (ICECS)},
+title={Evaluating Serialization for a Publish-Subscribe Based Middleware for MPSoCs},
+year={2018},
+volume={},
+number={},
+pages={773-776},
+abstract={Efficient serialization is a must-have feature in distributed embedded protocol stacks because of the restrained resources available for use in such systems. Although there are many serialization libraries out there, only some of them focus on resource usage, which is of most importance for the embedded domain. Thus, a comparison of serialization libraries considering resource usage is of high relevance for the embedded systems domain. This paper presents an experiment-based comparison of serialization libraries while concentrating on resource usage for a multiprocessor system-on-chip (MPSoC) platform. Results show that MsgPuck library surpasses other libraries for both serialization speed and memory consumption criteria.},
+doi={10.1109/ICECS.2018.8618003},
+keywords={mpsoc, software},
+ISSN={},
+month={Dec},}
+
+@INPROCEEDINGS{8533263,
+author={F. A. {Kuentzer} and L. R. {Juracy} and M. T. {Moreira} and Alexandre M. {Amory}},
+booktitle={2018 31st Symposium on Integrated Circuits and Systems Design (SBCCI)},
+title={Testable Error Detection Logic Design Applied to an Asynchronous Timing Resilient Template},
+year={2018},
+volume={},
+number={},
+pages={1-6},
+abstract={Resilient circuits are becoming a popular alternative to cope with process, voltage, and temperature variability under ultra-deep-submicron technology. Timing resilient architectures rely on error detection logic (EDL) to detect and recover from timing violations. Different EDLs have been proposed to either reduce the area overheads associated with the additional circuitry or to reduce recovery time, but most of them do not account for testability. This paper proposes a testable EDL (TEDL) architecture for manufacturing and field testing. Fault coverage and area overhead are illustrated on a resilient implementation of Plasma, a 3-stage OpenCore MIPS CPU, which contains the proposed testable EDL circuitry. The results show that 100\% of the stuck-at faults of the TEDL are detectable with 4.61\% area overhead when compared to the Plasma with the original EDL design.},
+keywords  = {async, testing},
+doi={10.1109/SBCCI.2018.8533263},
+ISSN={},
+month={Aug},}
+
+
+@INPROCEEDINGS{8533250,
+author={J. C. {Hamerski} and G. {Abich} and R. {Reis} and L. {Ost} and A. {Amory}},
+booktitle={2018 31st Symposium on Integrated Circuits and Systems Design (SBCCI)},
+title={A Design Patterns-Based Middleware for Multiprocessor Systems-on-Chip},
+year={2018},
+volume={},
+number={},
+pages={1-6},
+abstract={Current multiprocessor systems might comprise dozens of processors, requiring a runtime management to provide performance while complying with system's constraints such as energy consumption, thermal balance, and fault tolerance. Self-adaptive multiprocessor systems have been proposed to cover some key aspects such as hardware abstraction, programming models and modular software architecture. This paper provides a modular middleware to assist the development of self-adaptive services and applications on MPSoC environments. Based on key design patterns, the proposed middleware uses highly efficient features of object-oriented programming for embedded systems and specific compiler optimization options. The results show a case study of a self-adaptive application on top of the proposed middleware. Additional experiments demonstrate a reduction in the execution time from 3\% up to 19\%, presenting a memory footprint overhead of 8.7\% when compared to previous middleware without the features to ease modular software design.},
+keywords={mpsoc, software},
+doi={10.1109/SBCCI.2018.8533250},
+ISSN={},
+month={Aug},}
+
+
+@INPROCEEDINGS{8533254,
+author={A. R. P. {Domingues} and J. C. {Hamerski} and A. {Amory}},
+booktitle={2018 31st Symposium on Integrated Circuits and Systems Design (SBCCI)},
+title={Broker Fault Recovery for a Multiprocessor System-an-Chip Middleware},
+year={2018},
+volume={},
+number={},
+pages={1-6},
+abstract={The publish-subscribe programming model has been used successfully in many distributed embedded application domains and has been recently ported to the MPSoC domain. However, the publish-subscribe model requires the element of the broker, which is a single process that manages the communication between nodes; a unique point of failure in the system. This paper presents a lightweight extension of the publish-subscribe model with a fault recovery method for the broker. The results show that the proposed method inserts small memory footprint to the system while providing minimal system downtime during recovery.},
+keywords={mpsoc, software},
+doi={10.1109/SBCCI.2018.8533254},
+ISSN={},
+month={Aug},}
+
+
+
+@ARTICLE{Juracy-tvlsi2018, 
+author={L. R. Juracy and M. T. Moreira and F. A. Kuentzer and Alexandre M. Amory}, 
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
+  title={A DfT Insertion Methodology to Scannable Q-Flop Elements}, 
+  year={2018}, 
+  volume={26},
+  number={8},
+  pages={1609-1612}, 
+  abstract={The Q-Flop is an alternative memory element for designs that are prone to metastability. It has been substantially explored by past research work, specially in synchronization schemes. However, there is very limited support to test insertion on these critical components. This brief presents a testable Q-flop cell and a methodology to integrate it to standard synthesis and DfT flows, allowing automated scan insertion using conventional sequential cells and commercial design automation solutions. Experimental results explore the tradeoffs of the proposed cell in terms of silicon area, energy, and power when compared to the original Q-flop.}, 
+  keywords  = {async, testing},
+  doi={10.1109/TVLSI.2018.2821134}, 
+  ISSN={1063-8210}, 
+  month={Aug}
+}
+
+@inproceedings{Ruaro18,
+  author    = {Marcelo Ruaro and Henrique Martins Medina and  Alexandre M. Amory and Fernado G. Moraes},
+  title     = {Software-Defined Networking Architecture for NoC-Based Many-Cores},
+  booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages     = {1--4},
+  doi={10.1109/ISCAS.2018.8351830}, 
+  year      = {2018},
+keywords={mpsoc, software}
+}
+
+@inproceedings{Juracy18,
+  author    = {Leonardo Rezende Juracy and Matheus Trevisan Moreira and Felipe A. Kuentzer and F. G. Moraes and Alexandre M. Amory },
+  title     = {An LSSD Compliant Scan Cell for Flip-Flops},
+  booktitle = {IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages     = {1--4},
+  doi={10.1109/ISCAS.2018.8351515}, 
+  year      = {2018},
+  keywords  = {async, testing}
+}
+
+@inproceedings{Kuentzer18,
+  author    = {Felipe A. Kuentzer and Leonardo Rezende Juracy and
+               Alexandre M. Amory },
+  title     = {On the Reuse of Timing Resilient Architecture for Testing Path Delay Faults in Critical Paths},
+  booktitle = {IEEE Design, Automation and Test in Europe (DATE)},
+  pages     = {379--384},
+  doi={10.23919/DATE.2018.8342039}, 
+  year      = {2018},
+  keywords  = {async, testing}
+}
+
+@conference{paravisi18icinco,
+author={Marcelo Paravisi and Vitor {A. M. Jorge} and Alexandre Amory},
+title={Toward an Accurate Hydrologic Urban Flooding Simulations for Disaster Robotics},
+booktitle={Proceedings of the 15th International Conference on Informatics in Control, Automation and Robotics - Volume 2: ICINCO,},
+year={2018},
+pages={425-431},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0006904704350441},
+isbn={978-989-758-321-6},
+keywords  = {robotics}
+}
+
+@conference{roman18icinco,
+author={Felipe Roman and Alexandre Amory and Renan Maidana},
+title={Overseer: A Multi Robot Monitoring Infrastructure},
+booktitle={Proceedings of the 15th International Conference on Informatics in Control, Automation and Robotics - Volume 1: ICINCO,},
+year={2018},
+pages={141-148},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0006851801510158},
+isbn={978-989-758-321-6},
+keywords  = {robotics}
+}
+
+
+
 @inproceedings{renan2017deep,
   title={Deep Neural Networks for Handwritten Chinese Character Recognition},
   author={Renan G. Maidana and Juarez Monteiro and Roger Granada and Alexandre M. Amory and Rodrigo C. Barros},
@@ -85,7 +220,7 @@ DOI = {10.3390/s19030702}
 
 @inproceedings{maidana2017odometria,
   title={Odometria Visual Monocular para Localiza{\c{c}}{\~a}o de Rob{\^o} Terrestre},
-  author={Maidana, Renan Guedes and Salton, Aurelio Tergolina and de Alexandre M. Amory},
+  author={Renan Guedes Maidana and Aurelio Tergolina Salton and Alexandre M. Amory},
   booktitle={SBAI},
   year={2017},
   keywords  = {robotics}  
@@ -108,10 +243,10 @@ month={May},}
 
 
 @Inbook{DamasioOliveira2017,
-author="Damasio Oliveira, Juliana
+author={Damasio Oliveira, Juliana
 and de Borba Campos, M{\'a}rcia
-and Alexandre M. Amory, 
-and Manssour, Isabel Harb",
+and Alexandre M. Amory
+and Manssour, Isabel Harb},
 editor="Antona, Margherita
 and Stephanidis, Constantine",
 title="Teaching Robot Programming Activities for Visually Impaired Students: A Systematic Review",
